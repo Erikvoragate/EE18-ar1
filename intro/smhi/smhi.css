@@ -1,0 +1,27 @@
+table {
+    width: 700px;
+    background: #fff;
+    border-spacing: 10px;
+    table-layout: fixed;
+
+}
+th{
+    border-collapse: collapse
+}
+td {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    padding-left: 10px;
+    table-layout: fixed
+}
+tr{
+    font-family: 'Lobster', cursive;
+    font-size: 10px;
+    background: #fff;
+    padding: 10px;
+    table-layout: fixed
+
+}
+img {
+    width: 50px;
+}
