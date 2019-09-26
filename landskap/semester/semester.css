@@ -1,0 +1,28 @@
+body{
+    background: url(./photo-1507525428034-b723cf961d3e.jpg)
+    }
+h1{
+    font: 60px sans-serif;
+    color: white;
+    margin-left: 200px
+
+
+}
+p{
+    margin-top: 350px;
+    margin-left: 800px;
+    font: 60px sans-serif;
+    color: aliceblue;
+    border: 1px solid #eeeeee;
+    background: #739FA7
+
+    
+
+
+
+}
+h2{
+    font: 40px sans-serif;
+    color: white;
+    margin-left: 200px
+}
