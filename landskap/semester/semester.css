@@ -1,28 +1,35 @@
 body{
-    background: url(./photo-1507525428034-b723cf961d3e.jpg)
+    background: url(./photo-1507525428034-b723cf961d3e.jpg);
+    background-size: cover;
     }
 h1{
-    font: 60px sans-serif;
+    font: 90px sans-serif;
     color: white;
-    margin-left: 200px
+    margin-left: 200px;
+    font-weight: bold;
 
 
 }
 p{
     margin-top: 350px;
     margin-left: 800px;
-    font: 60px sans-serif;
+    font: 40px sans-serif;
     color: aliceblue;
-    border: 1px solid #eeeeee;
-    background: #739FA7
-
-    
-
-
-
+    border: 2px solid #eeeeee;
+    background: #739FA7;
+    width:200px;
+    color: #ffffff;
+    padding:25px;
+    text-align: center;
+    border-radius: 8px
 }
 h2{
-    font: 40px sans-serif;
+    font: 45px sans-serif;
     color: white;
-    margin-left: 200px
+    margin-left: 200px;
+    font-weight: bold;
+    margin-top: 40px;
+
+
+
 }
