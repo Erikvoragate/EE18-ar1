@@ -26,22 +26,28 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 h1{
     font-family: 'Mansalva', cursive;
+    text-shadow: 5px 5px 5px rgb(255, 255, 255);
 }
 .inlagg{
     background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
  background-blend-mode: normal, lighten, soft-light;
     padding: 50px;
-    box-shadow: 5px 5px 5px  black;
+    box-shadow: 5px 5px 5px black;
+    margin: 25px;
+
 
 }
-img{
+.bild{
     width: 100%;
     border-radius: 10px;
     box-shadow:5px 5px 5px black;
+    padding: 5px;
+    background: black;
 
 }
 h2{
     font-family: 'Mansalva', cursive;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
 
 }
 .datum{
