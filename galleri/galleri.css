@@ -10,32 +10,58 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
-body{
-    background: white;
+/* CSS clearfix mot box-kollaps */
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+body {
+    background: url(./bilder/hvufyuxSutHbMpPNhTjisF.jpg);
+    background-size: cover;
 
 }
-.kontainer{
-    width: 800px;
+.kontainer {
+    width: 850px;
     margin: 200px auto 0 auto;
+    background: #8C8A8B;
+    border: 100px;
+    border-radius: 10px;
+    padding: 2px;
 }
-h1{
-
-}
-.intro{
-
-}
-.ruta{
+.ruta {
     margin: 50px;
-    background:#dddddd
+    background: black;
+    border: 100px;
+    border-radius: 10px;
 
 
 }
-.bildtext{
-
+.bildtext {
+    color: white
 }
-img{
+img {
     margin: 15px;
     box-shadow: 5px 5px 10px;
+}
+.vänster {
     float: left;
+    margin-right: 20px;
+
+}
+.höger {
+    float: right;
+    margin-left: 20px;
+}
+.texthöger {
+    text-align: right;
+
+}
+hr {
+    clear: both;
+    visibility: hidden;
 
 }
