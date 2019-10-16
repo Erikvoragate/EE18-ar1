@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* färg
+$color1: rgba(142, 214, 8, 1);
+$color2: rgba(66, 122, 161, 1);
+$color3: rgba(235, 242, 250, 1);
+$color4: rgba(103, 148, 54, 1);
+$color5: rgba(165, 190, 0, 1); */
+/* sidan utseende */
+body {
+    background:rgba(235, 242, 250, 1);
+}
+.kontainer {
+    font-family: 'Oswald', sans-serif;
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    background: #dddddd;
+}
+.kontainer h1 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 80px;
+    color: rgba(142, 214, 8, 1);
+    text-shadow: 8px 8px 0 rgba(103, 148, 54, 1);
+}
+/* meny utseende */
+.kontainer .meny {
+    text-align: center;
+    margin: 10 0 30 0px;
+    margin: 20px 0;
+
+}
+.kontainer .meny li {
+    list-style-type: none;
+    display: inline;
+}
+.kontainer .meny a:hover {
+    background: rgba(142, 214, 8, 1);
+}
+.kontainer .meny a {
+    background: rgba(66, 122, 161, 1);
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 3px;
+    box-shadow: 3px 3px 0 black;
+    width: 150px;
+    display: inline-block;
+}
+.kontainer .meny .aktiv a {
+    background: rgba(103, 148, 54, 1);
+}
+/* innehållets utseende */
+.kontainer h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgba(165, 190, 0, 1)
+}
+.kontainer figure {
+    background: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.kontainer figure img {
+    width: 100%;
+}
+.kontainer .sidfot {
+    font-style: italic;
+
+}
+.kontainer .sidfot a {
+    color: chartreuse;
+}
