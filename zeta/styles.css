@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F9F8F1 url(./bild/zeta-hero.jpg);
+    background-repeat:no-repeat;
+
+}
+.kontainer {
+width: 1300px;
+margin:125px auto 0 auto;
+background: #F9F8F1;
+padding: 55px 30px;
+}
+.kontainer h1 {
+    text-align: center;
+    font:40px'Yeseva One', cursive;
+    font-weight: bold;
+    
+
+}
+.kontainer .beskrivning {
+    margin: 30px 225px;
+    text-align: center;
+    font: 18px'Yeseva One', cursive;
+
+}
+.kontainer.rutor .produkter {
+    background: #ffffff;
+    border: 25px;
+    margin: 0 auto 20px auto;
+    width: 290px;
+
+}
+.kontainer.rutor .produkter img {
+    width:240px;
+
+}
+.kontainer.rutor{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+
+}
+.kontainer .rutor .produkter h2 {
+    font: 25px'Yeseva One', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
