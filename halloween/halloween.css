@@ -11,12 +11,17 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 /*  */
 body{
+    width: 1000px;
     
 
 }
 .kontainer{
-    margin: 0 100px auto auto;
-
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
 }
 .kontainer ul{
 
@@ -34,4 +39,11 @@ body{
 }
 .kontainer2 p{
 
+}
+#myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
