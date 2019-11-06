@@ -1,0 +1,38 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+#videoBG {
+    position:fixed;
+    z-index: -1;
+}
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.nav{
+    background-color: black;
+    color:#f0711d;
+}
+h3{
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+.nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+li, a{
+    text-decoration: none;
+    color:#f0711d;
+    margin-bottom: 2px;
+    font-weight: bold;
+
+}

@@ -11,12 +11,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 body{
-    width: 700px;
-    background: url(./bild/backgroud.jpg);
+    width: 1000px;
+    background:black;
     background-size: cover;
-    margin: 0 auto;
 }
-.kontainer2{
+.meny{
     position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
@@ -26,9 +25,10 @@ body{
 }
 .kontainer{
     color: rgb(10, 107, 31);
+    margin: 100px;
 
 }
-h1{
+.kontainer h1{
     font-family: 'Abril Fatface', cursive;
     color: #cc0000;
     text-align: center;
@@ -41,5 +41,25 @@ h2{
 }
 p{
     font-family: 'Monda', sans-serif;
-
+    text-align: center;
+    margin-top: 80px;
+}
+a{
+    background:green;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 3px;
+    box-shadow: 3px 3px 0 black;
+    width: 150px;
+    display: inline-block;
+}
+.bilder{
+    float: left;
+    margin-right: 30px;
+    text-align: center
+}
+.meny ul a img{
+    size: 30px;
 }

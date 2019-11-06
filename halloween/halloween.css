@@ -47,3 +47,14 @@ body{
     min-width: 100%;
     min-height: 100%;
 }
+a{
+    background:green;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 3px;
+    box-shadow: 3px 3px 0 black;
+    width: 150px;
+    display: inline-block;
+}
