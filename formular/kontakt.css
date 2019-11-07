@@ -1,0 +1,45 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ffe6e6;
+}
+.kontainer {
+    background: #ffe6e6;
+    margin: 20px auto;
+    padding: 50px;
+    width: 800px;
+}
+form {
+    background: #ff9999;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 10px;
+    box-shadow:  2px 2px 2px gray;
+}
+input,select,textarea{
+    padding: 5px;
+    background:#ffe6e6;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
+}
+button{
+    padding: 10px;
+    background: #ffb3b3;
+    border: 2px solid #ffe6e6;
+    font-size:  16px; ;
+    margin: 10px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
