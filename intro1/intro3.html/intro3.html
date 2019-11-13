@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Introduktion till javascript</h1>
+    </div>
+    <script>
+        /* Slumpa fram ett tal*/
+        var slumtal = Math.ceil(Math.random() * 10);
+        console.log("slumtal=" + slumtal);
+
+        /* Läs av gissning */
+        var gissning = prompt("Gissa ett tal 1 till 10");
+
+        /* Är gissning=slummtal? */
+        if (gissning == slumtal) {
+            /* Fel svar! */
+            location.replace("https://wwww.youwin.com");
+        } else {
+            /* Rätt svar! */
+            location.replace("https://www.youtube.com/");     
+        }
+    </script>
+</body>
+</html>
