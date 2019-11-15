@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Lyssna på knapphändelsse</h1>
+
+        <button onclick="säkerEpost()">Säkra epostadressen</button>
+
+    </div>
+    <script>
+
+        /* Läs in epostadressen */
+        function säkerEpost() {
+            var epost = prompt ("ditt epost");
+            
+        }
+
+        /* Byt ut @ med (at). Tex karim@gamil.com blir karim(at)gmail.com */
+        var nettEpost = epost.replace("@","(at)");
+
+        /* Skriv ut resultatet, dvs karim(at)gamil.com */
+        alert("epost" + nettEpost);
+ 
+    </script>
+    
+</body>
+</html>
