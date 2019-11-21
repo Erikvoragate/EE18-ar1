@@ -102,3 +102,8 @@ body {
     background: #FFF;
     padding: 20px;
 }
+/* Mörkt läge */
+.mörk{
+    color: #fff; 
+    background: #000000;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>det</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1> I rörelse</h1>
+        <p id="p1">hfhfdhdfhfhfdhdh</p>
+        <p id="p2">tgdsgsgsdgd</p>
+        <img src="./cartoon.jpg" alt="Bild">
+        <button id="b1" onclick="mörkt()">mörkt</button>
+        <button id="b2" onclick="ljus()">ljus</button>
+    </div>
+    <script>
+        function mörkt() {
+            const elemenBox = document.querySelector(".kontainer");
+            const elemenH1 = document.querySelector("h1");
+            const elemenP1 = document.querySelector("#p2");
+            const elemenP2 = document.querySelector("#p1");
+            const elemenB1 = document.querySelector("#b1");
+            const elemenB2 = document.querySelector("#b2");
+
+            document.title = "Mörkt läge";
+            document.body.style.cssText = "background: #000; ";            
+            elemenBox.style.cssText = "background: #222; color: #fff;";
+            elemenP1.style.cssText = "background: #333; color: #fff;"
+            elemenP2.style.cssText = "background: #333; color: #fff;"
+            elemenB1.style.cssText = "background: #333; color: #fff;"
+            elemenB2.style.cssText = "background: #333; color: #fff;"
+                    
+       
+        }
+    </script>
+</body>
+</html>
