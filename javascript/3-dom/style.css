@@ -36,7 +36,7 @@ body {
 .kol3 {
     margin: 1em 0;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
 }
 .kontainer label {
@@ -116,4 +116,16 @@ body {
 }
 .kontainer .synlig{
     display: block;
+}
+.kontainer .gråskala{
+    filter: grayscale(100%);
+}
+.kontainer .gråskala1{
+    filter: hue-rotate(90deg);
+}
+.kontainer .gråskala2{
+    filter: contrast(200%);
+}
+.kontainer .styrka{
+    filter: contrast(150%);
 }

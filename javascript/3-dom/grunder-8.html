@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>det</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Effekter på foton</h1>
+        <div class="kol3">
+            <img id="foto1" src="./bilder/1.jpg" alt="1">
+            <img id="foto2" src="./bilder/r32.2.jpg" alt="R322">
+            <img id="foto3" src="./bilder/r32.3.jpg" alt="R323">
+           
+            <button onclick="vitsvart()">Bild1</button>
+            <button onclick="bild()">Bild2</button>
+            <button onclick="helt()">Bild3</button>
+            <button onclick="knapp()">På</button>
+            
+        </div>
+
+
+
+    </div>
+   
+   <script>
+        const elementFoto1 = document.querySelector("#foto1");
+        const elementFoto2 = document.querySelector("#foto2");
+        const elementFoto3 = document.querySelector("#foto3");
+
+        function knapp() {
+            setInterval(bild,500);
+            
+        }
+        
+        function vitsvart() {
+            elementFoto1.classList.toggle("gråskala")
+          
+        }
+        function bild() {
+            elementFoto2.classList.toggle("gråskala1")
+          
+        }
+        function helt() {
+            elementFoto3.classList.toggle("gråskala2")
+          
+        }
+        function timerSvartVit() {
+            
+        }
+
+    </script>
+</body>
+</html>

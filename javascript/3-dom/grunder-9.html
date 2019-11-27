@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>det</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Effekter på foton</h1>
+        <div class="kol3">
+            <img id="foto1" src="./bilder/r32.2.jpg" alt="r32">
+
+        </div>
+    </div>
+    <script>
+        const elemenFoto = document.querySelector("#foto1");
+
+        setInterval(flasha, 1);
+
+        function flasha() {
+            elemenFoto.classList.toggle("styrka");
+        }
+    </script>
+</body>
+</html>
