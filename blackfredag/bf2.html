@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HEJ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Wacom Intuos Medium BT (2018) Pistasch - BF19</h1>
+        <img class="animated dold" src="./bilder/6608293_1.jpg" alt="cartoon">
+    </div>
+    <script>
+    /* elemen vi jobbar med */
+    const elementImg = document.querySelector("img");
+    /* Fördörjning */
+    setTimeout(visaBild,1000)
+    function visaBild() {
+        elementImg.classList.remove("dold");
+        elementImg.classList.add("fadeInDown")
+    }
+    </script>
+</body>
+</html>

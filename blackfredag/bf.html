@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Black friday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Klickar på bilder</h1>
+        <a href="./bf2.html"><img id="foto1" src="./bilder/black-friday-1.png" alt="Klickar på bilder"></a>
+      </div>
+
+      <script>
+             const elemenFoto = document.querySelector("#foto1");
+
+setInterval(flasha, 1);
+
+function flasha() {
+    elemenFoto.classList.toggle("gråskala");
+}
+      </script>
+</body>
+</html> 

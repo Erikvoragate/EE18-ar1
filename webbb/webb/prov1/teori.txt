@@ -1,0 +1,2 @@
+1 -HMLT,CSS och JAVA
+2 -JAg kontrollera min kod gennom table under VScode där hjälper jag ifall jag hade fel.

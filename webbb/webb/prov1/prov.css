@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Denk+One&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(./bakgrund.jpg);
+    background-size: cover;
+}
+h1 {
+    margin: 100px 0 0 100px;
+    color: #00A6AD;
+    font-family: 'Denk One', sans-serif;
+    text-decoration-line: underline;
+}
+h2 {
+    margin-top: 20px;
+    margin-left: 100px;
+    color: #00A6AD;
+    margin-bottom: 20px;
+
+}
+img {
+    margin-left: 100px;
+    padding: 20px;
+    background: #A9E5E5;
+    border-radius: 10px;
+}
+
+td {
+    border: 2px solid #A9E5E5;
+    border-radius: 5px;
+}
+p {
+    padding: 20px;
+    background: #A9E5E5;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 540px;
+    margin-top: 10px;
+}
+table {
+    margin-left: 100px;
+    color: white;
+}
+.huvud {
+    background: #A9E5E5;
+    color: #00A6AD;
+}
+.lank {
+    color: red;
+}
+.under {
+    background: black
+}
