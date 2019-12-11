@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>det</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1 onclick="visaRublicken()">Klickar på mig !!!!</h1>
+        <p onclick="visaTexten()">Hemligt mobilnr</p>
+ 
+    </div>
+    <script>
+        /* elemen vi skall arbeta med */
+        const elementH1 = document.querySelector("h1");
+        const elementP1 = document.querySelector("p");
+
+        function visaRublicken() {
+            elementH1.textContent = "Erik Voragate";   
+            
+        }
+        function visaTexten() {
+            
+            elementP1.innerHTML = "Skolplikten upphör när du gått ut nionde klass."+
+            "Du får ta ett normalt, riskfritt arbete, det vill säga jobba 40 "+
+            "inte är myndig än för dina myndiga arbetskamrater."+"        <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/watch?v=tcOGmXGpamM\" frameborder=\"0\" allow=\"accelrometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>;"
+          ;   
+            
+        }
+
+
+    </script>
+</body>
+</html>

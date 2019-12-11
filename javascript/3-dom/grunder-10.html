@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>det</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Infoga text i sidan</h1>
+        <p>Hemligt mobilnr</p>
+        <p id="p1">Hemligt adress</p>
+        <div><p id="p2">Hemligt bilder</p></div>
+        <button onmouseover="visanr()" onmouseup="döljnr()">Visa mobilnr</button>
+        <button onmouseover="visaAdress()" onmouseup="döljAdress()">VisaAdress</button>
+        <button onmouseover="visaAvatar()" onmouseup="döljAvartar()">VisaAvar</button>
+
+    </div>
+    <script>
+        /* elemen vi skall arbeta med */
+        const elementP = document.querySelector("p");
+        const elementP1 = document.querySelector("#p1");
+        const elementP2 = document.querySelector("#p2");
+
+        function visaMobilnr() {
+            /* infoga mobilnr i p-elementet */
+            elementP.textContent = "0709458338";       
+        }
+        function visanr() {
+            elementP.textContent = "0709458338";    
+        }
+        function döljnr() {
+            elementP.textContent = "Hemligt";    
+        }
+
+
+        function visaAdress() {
+            elementP1.textContent = "Stockholm";    
+        }
+        function döljAdress() {
+            elementP1.textContent = "Hemligt";    
+        }
+       
+
+        function visaAvatar() {
+            elementP2.innerHTML ="<img src=\"./bilder/avatar.png\" alt=\"avatar\">";    
+        }
+        function döljAvartar() {
+            elementP2.textContent = "Hemligt";    
+        }
+
+    </script>
+</body>
+</html>
