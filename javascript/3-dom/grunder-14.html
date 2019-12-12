@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>det</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Läsa av iput-rutor</h1>
+        <h2>input</h2>
+        <label>Förnamn</label>
+        <input id="lab1" type="text">
+        <label>Efternamn</label>
+        <input id="lab2" type="text">
+        <button onclick="läsaNamn()">Skickar</button>
+        <h2>output</h2>
+        <p>resultat</p>
+
+    </div>
+    <script>
+        const elementRuta1= document.querySelector("#lab1")
+        const elementRuta2 = document.querySelector("#lab2")
+        const elementP = document.querySelector("p")
+
+        function läsaNamn() {
+            
+            var namn1 = elementRuta1.value;
+            var namn2 = elementRuta2.value;
+
+            elementP.textContent = "Hej "+ namn1 +" "+ namn2;
+            
+        }
+
+    </script>
+</body>
+</html>

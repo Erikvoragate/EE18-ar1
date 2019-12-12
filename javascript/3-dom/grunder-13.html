@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>det</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>00:00:00</h1>
+        <button onclick="visaKlockan()">Vad är klockan?</button>
+    </div>
+    <script>
+        const elementH1 = document.querySelector("h1")
+
+        function visaKlockan() {
+            setInterval(realtidsKlocka, 1000)          
+        }
+        function realtidsKlocka() {
+            elementH1.textContent = tiden;
+            var idag = new Date();
+            var tiden = idag.getHours(); +":"+ dag.getMinutes(); +":"+ idag.getSeconds();
+
+            
+        }
+    </script>
+</body>
+</html>
