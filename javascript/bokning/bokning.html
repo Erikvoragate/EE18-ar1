@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bokning</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bokning.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Rumsbokning</h1>
+        <fieldset>
+            <legend>Val av rum</legend>
+            <input type="radio" name="rum" id="1" checked value="500">
+            <label for="1">Enkelrum 500kr</label><br>
+            <input type="radio" name="rum" id="2" value="800">
+            <label for="2">Dubbelrum 800kr</label><br>
+            <input type="radio" name="rum" id="3" value="1000">
+            <label for="3">Familjerum 1000kr</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Antal nätter</legend>
+           <select  class="form-control form-control-sm">
+               <option value="1">1 natt</option>
+               <option value="2">2 natt</option>
+               <option value="3">3 natt</option>
+               <option value="4">4 natt</option>
+               <option value="5">5 natt</option>
+               <option value="6">6 natt</option>
+               <option value="7">1 vecka</option>
+               <option value="14">2 veckor</option>
+ 
+
+           </select>
+        </fieldset>
+        <fieldset>
+            <legend>Tillägg</legend>
+            <input type="checkbox" name="till" id="wifi" value="50">
+            <label for="wifi">Snabb WiFi 50kr</label><br>
+            <input type="checkbox" name="till" id="tysk" value="200">
+            <label for="tysk">Tysk rum 200kr</label><br>
+            <input type="checkbox" name="till" id="tv" value="100">
+            <label for="tv">Större TV 100kr</label><br>
+            <input type="checkbox" name="till" id="mat" checked value="50">
+            <label for="mat">Fruktkost 50kr</label><br>
+            Kostnade per dygn
+        </fieldset>
+        <fieldset>
+            <legend>Kampanjkod</legend>
+            Om du har en kampanjkod mata in den här. <br>
+            <input type="text" id="kampanjkod">
+        </fieldset>
+        <fieldset>
+            <legend>Totalpris</legend>
+            <p>Dina val ger en Kostnad på 0 kr.</p> <br>
+            <button class="btn btn-warning">Beräknad Kostnad</button>
+         
+        </fieldset>
+    </div>
+
+    <script defer src="./bokning.js"></script>
+</body>
+</html>
